@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body {
+    font-family: Arial, sans-serif;
+}
+.main-container{
+    padding: 50px 50px 0 50px;
+}
+.content-area{
+    /* border: 1px solid black; */
+    height: 80vh;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+.main {
+    /* border: 1px solid black; */
+    margin: 0 30px 0 30px;
+    height: 100px;
+    padding: 100px;
+    display: flex; /* Make this a flex container */
+    justify-content: center; /* Center horizontally */
+    flex-direction: column;
+    align-items: center; /* Center vertically */
+}
+
+.outputNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 30px;
+    border: 3px solid hsl(0 , 0% ,30% , 80%);
+    font-size: 4rem;
+}
+
+.nav-area{
+    /* border: 1px solid black; */
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 86px;
+}
+.board{
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.button-container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 120px;
+    margin: 0 30px 0 30px;
+}
+.lessGreather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+.InputValue{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 30px;
+    font-size: 2rem;
+}
+.valueContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.lessValue , .greaterValue{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+}
+.greater_Than , .less_Than{
+    width: 100px;
+}
+.greater_Than {
+    margin-right: 20px;
+}
+.less_Than{
+    margin-left: 20px;
+}
+.less_Than:hover , .greater_Than:hover{
+    background-color: rgb(0, 183, 255);
+}
+.btn{
+    width: 100px;
+    margin-top: 20px;
+    background-color: green;
+}
+.btn:hover{
+    background-color: red;
+}
+.btn:active , .less_Than:active , .greater_Than:active{
+    background-color: rgb(255, 255, 0);
+}
